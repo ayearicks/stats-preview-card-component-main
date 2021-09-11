@@ -4,30 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <main>
+    <section class="header-img">
+      <img src="./images/image-header-mobile.jpg" class="mobile-img" alt="group of business women with laptop">
+      <img src="./images/image-header-desktop.jpg" class="desktop-img" alt="group of business women with laptop">
+    </section>
+    <section class="card">
+      <h1 id="heading">
+        Get <span>insights</span> that help your business grow.
+      </h1>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <p id="desc">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
-
+      <section id="stats-display">
+        <p class="stats"><span>10k+</span><br> companies</p>
+        <p class="stats"><span>314</span><br> templates</p>
+        <p class="stats"><span>12m+</span><br> queries</p>
+      </section>
+    </section>
+  </main>
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="http://yearicks.dev">Ashley Yearicks</a>.
   </div>
 </body>
 </html>
