@@ -101,6 +101,7 @@ main {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
     margin: 5rem;
+    padding-left: 3rem;
     text-align: left;
   }
   .mobile-img {
@@ -124,9 +125,22 @@ main {
     color: var(--White);
     font-family: var(--Lex);
     font-size: 40px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    max-width: 70%;
+  }
+  #desc {
+    max-width: 60%;
+    line-height: 2;
+  }
+  #stats-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 70%;
   }
 }
 

@@ -91,6 +91,7 @@ main {
     main {
         flex-direction: row-reverse;
         margin: 5rem;
+        padding-left: 3rem;
         text-align: left;
     }   
 
@@ -100,7 +101,6 @@ main {
 
     .header-img {
         border-bottom-right-radius: 10px;
-    
     }
 
     .desktop-img {
@@ -120,7 +120,19 @@ main {
         color: var(--White);
         font-family: var(--Lex);
         font-size: 40px;
-        justify-content: center;
+        max-width: 70%;
+    }
+
+    #desc {
+        max-width: 60%;
+        line-height: 2;
+    }
+
+    #stats-display {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 70%;
     }
 
   
